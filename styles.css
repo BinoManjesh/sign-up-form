@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(247, 247, 247);
     display: flex;
 }
 
@@ -37,7 +37,7 @@ header > img {
 h1 {
     font-family: Norse-Bold;
     font-size: 1em;
-    height: 1em;
+    height: 1   em;
     margin: 0;
 }
 
@@ -49,9 +49,66 @@ header > span {
     position: absolute;
     bottom: 0;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 header > span > a {
     color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+main > * {
+    margin-left: 2rem;
+}
+
+main > div {
+    margin-right: 4rem;
+}
+
+main > form {
+    margin-left: 0;
+}
+
+h2 {
+    font-size: inherit;
+}
+
+form > div {
+    background-color: white;
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 10px 20px -20px;
+}
+
+form ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 0;
+}
+
+form li {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 400px;
+}
+
+form button {
+    margin: 2rem;
+    display: block;
+    padding: 0.5rem 3rem;
+}
+
+form span {
+    margin-left: 2rem;
 }
