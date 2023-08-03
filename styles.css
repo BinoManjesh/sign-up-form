@@ -94,6 +94,23 @@ form ul {
     padding: 0;
 }
 
+form label {
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: initial;
+}
+
+form input {
+    border:  2px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+form input:focus {
+    border-color: rgb(92, 92, 255);
+    outline: none;
+}
+
 form li {
     display: flex;
     flex-direction: column;
@@ -101,14 +118,27 @@ form li {
 
 form input {
     width: 400px;
+    padding: 0.25em;
 }
 
 form button {
     margin: 2rem;
     display: block;
-    padding: 0.5rem 3rem;
+    padding: 1em 3em;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 form span {
     margin-left: 2rem;
+    font-weight: initial;
+}
+
+form span a {
+    color: #596D48;
+    text-decoration: none;
 }
