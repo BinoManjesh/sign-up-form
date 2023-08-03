@@ -109,6 +109,7 @@ form input {
 form input:focus {
     border-color: rgb(92, 92, 255);
     outline: none;
+    box-shadow: 5px 5px 10px 5px rgb(0, 0, 0, 0.1);
 }
 
 form li {
